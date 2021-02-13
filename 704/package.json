@@ -8,7 +8,7 @@
     "build": "browserify --entry index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env] ]",
     "watch": "watchify --entry index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env] ] -v"
   },
-  "author": "nika gabisonia",
+  "author": "giorig tezelashvili",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
